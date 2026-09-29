@@ -1,4 +1,4 @@
-# TrustTrail 🔍
+# TrustTrail
 
 **A RAG app that shows its sources, checks its own answers, and says "I don't know" when it should.**
 
