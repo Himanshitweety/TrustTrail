@@ -1,1 +1,15 @@
+# --- UI ---
+streamlit == 1.64.0
 
+# --- Ingestion: files ---
+pymupdf 
+pdfplumber
+pytesseract
+requests
+python-docx
+
+# --- LLM providers 
+groq
+google-genai
+
+trafilatura == 2.2.0

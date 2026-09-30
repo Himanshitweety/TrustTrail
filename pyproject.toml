@@ -1,0 +1,27 @@
+[project]
+name = "trusttrail"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Himanshi Singh", email = "himanshitwettysingh@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=2.25.0",
+    "groq>=1.7.0",
+    "pdfplumber>=0.11.10",
+    "pymupdf>=1.28.2",
+    "pytesseract>=0.3.13",
+    "python-docx>=1.2.0",
+    "requests>=2.34.2",
+    "streamlit>=1.64.0",
+    "trafilatura>=2.2.0",
+]
+
+[project.scripts]
+trusttrail = "trusttrail:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
