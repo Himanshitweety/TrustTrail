@@ -24,6 +24,9 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 
 
+
+# 
+
 DATA_DIR = ROOT_DIR / os.getenv("DATA_DIR", "data")
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "800"))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "100"))
